@@ -61,7 +61,9 @@ requirements.txt: (Optional) A file listing the required Python libraries.
 Notes
 The script fetches photos from https://fotomhs.amikom.ac.id/ based on the NIM.
 Student names are fetched from the PDDIKTI API, ensuring they match the exact NIM and university (UNIVERSITAS AMIKOM YOGYAKARTA).
-Known Issues
+
+
+##Known Issues
 Missing Photos:
 If a photo doesn't exist on the server, the script logs a warning and continues.
 API Mismatch:
@@ -69,8 +71,6 @@ If the PDDIKTI API returns multiple results or no exact match for a NIM, the pho
 Contribution
 Contributions are welcome! If you find a bug or have a feature request, feel free to open an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 Disclaimer
 This script is intended for academic and personal use only
